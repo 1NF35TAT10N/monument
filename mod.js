@@ -54,6 +54,8 @@ G.AddData({
             req:{'hot sauce preparing':true},
             effects:[
                 {type:'function',func:function(){G.getDict('hot sauce').turnToByContext['eat']['happiness']=0.2;}},//this is a custom function executed when we gain the trait
+            ],
+        });
         
         //There are many other ways of adding and changing content; refer to /data.js, the default dataset, if you want to see how everything is done in the base game. Good luck!
     }
